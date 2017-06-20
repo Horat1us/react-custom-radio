@@ -1,12 +1,14 @@
 import React from 'react';
+import PropTypes from 'prop-types';
+
 /**
  * Created by horat1us on 3/5/17.
  */
 export default {
-    name: React.PropTypes.string,
-    selectedValue: React.PropTypes.oneOfType([
-        React.PropTypes.number,
-        React.PropTypes.string
+    name: PropTypes.string,
+    selectedValue: PropTypes.oneOfType([
+        PropTypes.number,
+        PropTypes.string
     ]),
-    onChange: React.PropTypes.func
+    onChange: PropTypes.func
 };

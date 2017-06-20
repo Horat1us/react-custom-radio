@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import PropTypes from 'prop-types';
 import RadioContext from 'RadioContext';
 
 /**
@@ -15,10 +16,10 @@ const RadioButton = class RadioButton extends Component {
     };
 
     static propTypes = {
-        children: React.PropTypes.node,
-        useHiddenInput: React.PropTypes.bool,
-        className: React.PropTypes.string,
-        type: React.PropTypes.string,
+        children: PropTypes.node,
+        useHiddenInput: PropTypes.bool,
+        className: PropTypes.string,
+        type: PropTypes.string,
     };
 
     constructor(props) {
