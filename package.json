@@ -1,6 +1,6 @@
 {
   "name": "react-custom-radio",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Better radio buttons (fork)",
   "main": "umd/index.js",
   "scripts": {
@@ -53,8 +53,8 @@
   },
   "homepage": "https://github.com/Horat1us/react-radio-group",
   "peerDependencies": {
-    "react-dom": "^15.4.2",
-    "react": "^15.4.2",
+    "react-dom": ">=15.4.2",
+    "react": ">=15.4.2",
     "prop-types": "^15.5.10"
   },
   "directories": {
