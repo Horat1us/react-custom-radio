@@ -1,6 +1,6 @@
 {
   "name": "react-custom-radio",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Better radio buttons (fork)",
   "main": "umd/index.js",
   "scripts": {
